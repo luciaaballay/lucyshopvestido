@@ -1,0 +1,25 @@
+{
+  "name": "lucyluciamarielaballayandrada2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path sass sass/estilos.scss estilos/estilos.css",
+    "watch-css": "nodemon -e scss -x\"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciaaballay/lucia22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciaaballay/lucia22/issues"
+  },
+  "homepage": "https://github.com/luciaaballay/lucia22#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

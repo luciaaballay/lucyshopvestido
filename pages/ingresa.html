@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta name="description" content="Ingresa o regístrate para tener acceso y comprar vestidos en Lucy">
+    <meta name="keywords" content="vestido, compra, ingreso, registro, lucy">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="icon" href="../assets/img/logos.ico">
+    <title>Ingresa | Lucy</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" id="bg-color">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/catalogo.html">catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ingresa.html">ingresa</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>Ingresa</h2>
+        <form action="/action_page.php" class="was-validated">
+            <div class="form-group">
+                <label for="uname">Nombre de usuario:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Escribe tu nombre" name="uname"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor llena esto con tu nombre de usuario.</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" placeholder="Escribe tu email" id="email"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor llena esto con tu email.</div>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Contraseña:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Escribe tu contraseña" name="pswd"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Por favor llena esto con tu contraseña.</div>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember" required> Estoy de acuerdo con los
+                    términos y condiciones.
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Marca esto para continuar.</div>
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">Recordar
+                </label>
+            </div>
+            <div class="boton">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+        <div class="cuadrado-1"></div>
+        <div class="cuadrado-2"></div>
+        <div class="cuadrado-3"></div>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Todos los derechos reservados por copyright</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
